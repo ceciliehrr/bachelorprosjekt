@@ -1,1 +1,239 @@
-<h1>Prosjektweb</h1>
+<!DOCTYPE html>
+<html lang="nb">
+<head>
+    <title>Bachelorprosjekt</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/javascript.js" type="text/javascript"></script>
+</head>
+
+<body>
+
+
+<div class="grid-container" id="grid">
+    
+        <div class="navbar">
+                <span style="font-size:40px;cursor:pointer" onclick="openNav()"><i class="fas fa-align-center"></i></span>
+                <div id="myNav" class="over">
+                        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                        <div class="over-content">
+                          <a href="#filer">Filer</a>
+                          <a href="#omOppg">Prosjektet</a>
+                          <a href="#blogg">Blogg</a>
+                          <a href="#omMeg">Om meg</a>
+                          <a href="#atkins">Oppdragsgiver</a>
+                          <a href="#kontakt">Kontakt</a>
+                        </div>
+                      </div>
+            </div>
+
+    <div class="navbar-small">
+        <span style="font-size:40px;cursor:pointer" onclick="openNavSmall()"><i class="fas fa-align-center"></i></span>
+        <div id="myNavSmall" class="over">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNavSmall()">&times;</a>
+                <div class="over-content">
+                  <a href="#filer">Filer</a>
+                  <a href="#omOppg">Prosjektet</a>
+                  <a href="#blogg">Blogg</a>
+                  <a href="#omMeg">Om meg</a>
+                  <a href="#atkins">Oppdragsgiver</a>
+                  <a href="#kontakt">Kontakt</a>
+                </div>
+              </div>
+    </div>
+
+  <div class="header" >
+       <img src="pictures/lofoten10_stor.jpg" alt="Lofoten_digitalinnbygger" class="responsive_img" width="1000" height="650">
+        <article class="animatable fadeInUp">
+        <div class="small-font">Bachelorprosjekt</div>
+        <div class="big-font">Hvordan tilpasse et brukergrensesnitt for en digital innbygger?</div>
+        <div class="medium-font">av Cecilie Hansen Rørås</div>
+        </article>
+  </div>
+
+  <section class="assignment" id="filer">
+        <figure class="tekst"><div class="strek">FILER</div></figure>
+      
+        <div class="elem elem1">
+                <i class="far fa-calendar-check"><p class="elem-p">Prosjektskisse</p></i>
+          <div class="overlay">
+              <div class="text">Last ned</div>
+        </div>
+      </div>
+        <div class="elem elem2">
+                <i class="far fa-calendar-times"><p class="elem-p">Prosjekt-<br>beskrivelse</p></i>
+            <div class="overlay">
+                <div class="text"><i class="fas fa-times"></i>5.feb</div>
+          </div>
+        </div>
+        <div class="elem elem3">
+                <i class="far fa-calendar-times"><p class="elem-p">Status-<br>rapport 1</p></i>
+            <div class="overlay">
+                <div class="text"><i class="fas fa-times"></i>5.feb</div>
+            </div>
+        </div>
+        <div class="elem elem4">
+                <i class="far fa-calendar-times"><p class="elem-p">Status-<br>rapport 2</p></i>
+            <div class="overlay">
+                <div class="text"><i class="fas fa-times"></i>12.mars</div>
+            </div>
+        </div>
+        <div class="elem elem5">
+                <i class="far fa-calendar-times"><p class="elem-p">Status-<br>rapport 3</p></i>
+            <div class="overlay">
+                <div class="text"><i class="fas fa-times"></i>30.april</div>
+            </div>
+        </div>
+        <div class="elem elem6">
+                <i class="far fa-calendar-times"><p class="elem-p">Bachelor-<br>rapport</p></i>
+            <div class="overlay">
+                <div class="text"><i class="fas fa-times"></i>7.mai</div>
+            </div>
+        </div>
+        <div class="elem elem7">
+            <!--<div class="overlay"> **ikke ferdig**-->
+                <div class="text">Hello World</div>
+          <!--</div>-->
+        </div>
+        <div class="elem elem8">
+            <!--<div class="overlay"> **ikke ferdig**-->
+                <div class="text">Hello World</div>
+          <!--</div>-->
+        </div>
+    </section>
+    <article class="om_oppg" id="omOppg">
+            <figure class="tekst"><div class="strek">PROSJEKTET</div></figure>
+            <div class="row">
+                    <div class="column-1">
+                      <img  class="animatable fadeInUp" src="pictures/people2.jpg" alt="App" width="335" height="471">
+                    </div>
+                    <div class="column-2">
+                      <p style="width: 80%;" class="small-font2">
+                            Dette bachelorprosjektet er basert på et oppdrag fra SNC-Lavalin Atkins Norge, avdeling Digital Solutions. 
+                            Digital Inhabitant - Digital Innbygger er et FoU-prosjekt som Atkins skal levere til Lillehammer kommune. Målet med FoU-prosjektet er å:
+                            <br></p>
+                            <ul style="width: 80%;" class="small-font2">
+                                <li>fornye, forenkle og forbedre arbeidsprosesser og tjenester på tvers av systemer og fagområder i kommunene.</li>
+                                <li>gi brukeren en helhetlig opplevelse av de digitale tjenestene som benyttes i det kommunale.</li>
+                            </ul>
+                            <p style="width: 80%;" class="small-font2">
+                            Leveransen skal være en digital kommuneplattform som er basert på behov i kommunen.
+                            Mitt oppdrag innenfor FoU-prosjektet er å utforske hvordan man kan tilpasse brukergrensesnittet etter hvem innbyggeren er.
+                            Brukergrensesnittet i Digital Innbygger skal formidle informasjon til innbyggere med ulike tekniske behov og forutsetninger.
+                            Dette krever en forståelse for interaksjonsdesign, universell utforming og andre designprinsipper. Men kan tilpasset brukergrensesnitt løses på en innovativ måte med ny teknologi som AI og maskinlæring?</p>
+                    </div>
+                  </div>
+      </article>
+    <!--BLOGG-->
+    <article class="blog" id="blogg">
+        <figure class="tekst"><div class="strek" id="blogg-strek" >BLOGG</div></figure>
+        <div class="row">
+          <div class="column-1">
+            <img src="pictures/lofoten10.jpg" alt="bloggbilde" class="animatable fadeInUp" id="bloggbilde" width="335" height="471">
+          </div>
+          <div class="column-2">
+            <h1 class="xl-font" id="bloggpost"><b>BLOGGPOST 2</b></h1>
+            <p class="small-font" id="bloggdato">17.01.2019</p>
+            <div id="less" class="small-font2">I dag har jeg fått prosjektweb(denne nettsiden) på lufta.</div><span id="dots" class="small-font2">...</span>
+            <span class="small-font2" id="more">En del av bachelorprosjektet er å dele innleveringer og oppdateringer på en nettside. 
+            Jeg har valgt å bruke GitHub som hostingtjeneste siden denne siden er statisk,
+            og jeg trenger mer praktisk erfaring med bruk av GIT som versjonskontrollverktøy.</span><br><br>
+            <button onclick="readMore()" id="myBtn" class="button">Read More</button>
+          </div>
+        </div>
+    </article>
+    <div class="siste">
+        <div class="bloggelem blogg2">
+                <div class="text nummer">2.</div>
+            <div class="overlay_blogg"
+                onclick="newBlog('BLOGGPOST 2','18.01.2019','I dag har jeg fått prosjektweb(denne nettsiden) på lufta...','En del av bachelorprosjektet er å dele innleveringer og oppdateringer på en nettside. Jeg har valgt å bruke GitHub som hostingtjeneste siden denne siden er statisk, og jeg trenger mer praktisk erfaring med bruk av GIT som versjonskontrollverktøy','pictures/lofoten10.jpg')">
+            </div>
+            
+        </div>
+        <div class="bloggelem blogg1">
+                <div class="text nummer">1.</div>
+            <div class="overlay_blogg" 
+                onclick="newBlog('BLOGGPOST 1','07.01.2019','Første arbeidsdag hos Atkins Norge på Lysaker der jeg fikk nærmere beskrivelser av mitt oppdrag innenfor Digital Innbygger...','Jeg hilste også på SCRUM-teamet som utvikler kommuneplattformen, de var selvfølgelig svært oppslukt i koding, jeg mistenker GIT-problemer! ;)','pictures/lofoten10_farge.jpg')">
+            </div>
+        </div>
+        <div class="bloggelem blogg3">
+            <div class="text nummer"></div>
+                <div class="overlay_blogg"></div>
+        </div>
+        <div class="bloggelem blogg4">
+            <div class="text nummer"></div>
+            <div class="overlay_blogg"></div>
+        </div>
+    </div>
+<!--BLOGG SLUTT-->
+
+    <div class="left" id="omMeg">
+        <figure class="tekst"><div class="strek">OM MEG</div></figure>
+        <div class="animatable fadeInUp">
+        <img class="portrett" src="pictures/meg.jpg" alt="cecilie hansen rørås" width="350" height="350">
+        <img class="portrett" id="ball_bilde" src="pictures/megball.jpg" alt="cecilie hansen rørås" width="350" height="350">
+        </div>
+    </div>
+    
+    <article class="right">
+            <p id="om" class="small-font2">Jeg heter Cecilie Hansen Rørås og studerer fulltid Informatikk på USN Bø, er deltidsutvikler hos SNC-Lavalin Atkins Norge, er deltids hundeeier og heltids samboer. Det jeg brenner aller mest for faglig sett er front-endutvikling. Brukergrensesnitt som ikke er intuitive er en uting. På fritiden spiller jeg håndball og basket med studentidrettlaget Trimius.</p>
+    </article>
+
+    <article class="company" id="atkins">
+        <figure class="tekst"><div class="strek">Oppdragsgiver</div></figure>
+        <div class="row">
+            <div class="column-1">
+                <img src="pictures/people2.jpg" class="animatable fadeInUp"" alt="App" width="335" height="471">
+            </div>
+            <div class="column-2">
+                <p style="width: 80%;" class="small-font2">
+                        SNC-Lavalin Atkins Norge er et ingeniør- og konsulentselskap delt opp i fire forretningsområder: 
+                        Project Management Consultancy, 
+                        Rail Consultancy, 
+                        Engineering og
+                        Digital Solutions. 
+                        Dette bachelorprosjektet er basert på et oppdrag fra Digital Solutions. 
+                        Digital Solutions leverer digitale løsninger innen transport, industri, helse, bygg og anlegg, og til offentlig sektor.
+                        <br>
+                        Besøk gjerne deres nettside: <a href="http://atkinsglobal.no/" target="_blank">HER</a>
+                    <div class="cont" style="text-align: left;">
+                        <ul class="contact">
+                            <li style="text-align: left;">
+                                <p><i class="fa fa-map-marker fa-3x"></i></p>
+                                <p><strong>Atkins Norge AS</strong><br>
+                                        Lilleakerveien 6D<br>
+                                        Postboks 438<br>
+                                        1327 Lysaker</p>
+                            </li>
+                        </ul>
+                    </div>
+                </p>
+            </div>
+        </div>
+    </article>
+    <div class="footer" id="kontakt">
+            <div class="cont">
+                <ul class="contact">
+                    <div class="small-font2">Skulle du lure på noe angående bachelorprosjektet, ikke nøl med å ta kontakt!</div>
+                    <li style="text-align: left;">
+                        <p><i class="fas fa-mobile-alt fa-3x"></i></p>
+                        <p><strong>TELEFON</strong><br>
+                            40019988
+                    </li>
+                    <li style="text-align: left;">
+                            <p><i class="far fa-envelope fa-3x"></i></p>
+                            <p><strong>E-POST</strong><br>
+                            ceciliehrr@gmai.com</p>
+                        </li>
+                </ul>
+            </div>
+    </div>
+
+</div>
+
+</body>
+</html>
