@@ -627,6 +627,7 @@ padding-bottom: 50px;
   }
   .fa-align-center{
     margin: 5px;
+    margin-top: 0;
   }
   .over-content a{
     font-size: 30px;
