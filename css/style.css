@@ -614,6 +614,9 @@ padding-bottom: 50px;
       'company company company company company company'
       'footer footer footer footer footer footer';
   }
+	body{
+		padding: 0%;
+	}
   .header{
     height: auto;
   }
