@@ -229,8 +229,7 @@ body {
   background-color: var(--primary-four);
 }
 .blogg1, .blogg2{
-  background-color: rgb(53, 73, 78, 0.1);
-  color: var(--primary-two);
+  background-color:#BABABA;
   box-shadow: 0.2rem 0.3rem 0.3rem rgba(0, 0, 0, 0.3);
 }
 .blogg3, .blogg4, .blogg5, .blogg6{
@@ -243,7 +242,7 @@ body {
 }
 .nummer{
   font-family: 'Staatliches', cursive;
-  font-size:40px;
+  font-size:30px;
   color: var(--primary-two);
   z-index: 0;
 }
@@ -260,7 +259,6 @@ body {
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  background-color:var(--primary-two);
   z-index: 0;
   
 }
@@ -274,7 +272,6 @@ body {
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  background-color:var(--primary-two);
   z-index: 0;
   }
 .elem:hover .overlay {
@@ -419,11 +416,11 @@ padding-bottom: 50px;
   -o-animation-fill-mode: both;
   animation-fill-mode: both;
   
-  -webkit-animation-duration: 1.8s;
-  -moz-animation-duration: 1.8s;
-  -ms-animation-duration: 1.8s;
-  -o-animation-duration: 1.8s;
-  animation-duration: 1.8s;
+  -webkit-animation-duration: 1.5s;
+  -moz-animation-duration: 1.5s;
+  -ms-animation-duration: 1.5s;
+  -o-animation-duration: 1.5s;
+  animation-duration: 1.5s;
 
   -webkit-animation-play-state: running;
   -moz-animation-play-state: running;
@@ -500,6 +497,107 @@ padding-bottom: 50px;
    /*grid-column-gap: 10px; - if you want gap between the columns */
 }
 
+/*TABLET*/
+@media (min-width: 768px) and (max-width: 1024px) {
+  .header{
+    height: auto;
+  }
+  .over-content a{
+    font-size: 35px;
+  }
+  .navbar-small{
+    display: block;
+  }
+  .navbar{
+    display: none;
+  }
+  .xl-font{
+    font-size:40px;
+  }
+  .big-font{
+    font-size:35px;
+  }
+  .medium-font{
+    font-size: 30px;
+  }
+  .small-font{
+    font-size:25px;
+  }
+  .responsive_img {
+    width: 50%;
+    height: auto;
+    padding-bottom:50px;
+  }
+  #oppgaven{
+    font-size: 15px;
+  }
+  .assignment{
+    padding: 0px;
+  }
+  .overlay {
+    display: none;
+    }
+  .elem{
+    width:20%;
+    margin: 2px;
+    padding-bottom: 20%;/* this and width need to be similar*/
+  }
+  .strek{
+    width: 250px;
+    height: auto;
+    border-bottom: solid 1px var(--primary-two);
+  }
+  .blog{
+    padding: 0px;
+  }
+  .column-2,
+  .column-1 {
+    width: 100%;
+    text-align: left;
+  }
+  img {
+    margin: auto;
+  }
+
+  #blogg-strek{
+    margin-left:0;
+  }
+  .portrett{
+    max-width:250px;
+    max-height:380px;
+    margin:10px;
+  }
+  #om{
+    font-size: 15px;
+  }
+  #ball_bilde{
+    margin-top: 0;
+  }
+  .bloggelem{
+    width:30%;
+    padding-bottom: 30%;/* this and width need to be similar*/
+  }
+  #bloggbilde{
+    padding:0;
+    margin:0;
+  }
+  #nummer{
+    font-size:20px;
+  }
+  .siste{
+    padding-top:60%;
+    padding-left: 3%;
+  }
+  .text {
+    font-size: 20px;
+    padding:20px;
+  }
+  .row{
+    padding:50px;
+    
+  }
+
+}
 
 /*Mobile */
 @media (max-width: 600px) {
@@ -623,105 +721,10 @@ padding-bottom: 50px;
     margin: 6px;
   }
   .nummer{
-    font-size:30px;
+    font-size:20px;
 
   }
   .text {
     padding:20px;
   }
-}
-/*TABLET*/
-@media (min-width: 768px) and (max-width: 1024px) {
-  .header{
-    height: auto;
-  }
-  .over-content a{
-    font-size: 35px;
-  }
-  .xl-font{
-    font-size:40px;
-  }
-  .big-font{
-    font-size:35px;
-  }
-  .medium-font{
-    font-size: 30px;
-  }
-  .small-font{
-    font-size:25px;
-  }
-  .responsive_img {
-    width: 100%;
-    height: auto;
-    padding-bottom:50px;
-  }
-  #oppgaven{
-    font-size: 15px;
-  }
-  .assignment{
-    padding: 0px;
-  }
-  .overlay {
-    display: none;
-    }
-  .elem{
-    width:20%;
-    margin: 2px;
-    padding-bottom: 20%;/* this and width need to be similar*/
-  }
-  .strek{
-    width: 250px;
-    height: auto;
-    border-bottom: solid 1px var(--primary-two);
-  }
-  .blog{
-    padding: 0px;
-  }
-  .column-2,
-  .column-1 {
-    width: 100%;
-    text-align: left;
-  }
-  img {
-    margin: auto;
-  }
-
-  #blogg-strek{
-    margin-left:0;
-  }
-  .portrett{
-    max-width:250px;
-    max-height:380px;
-    margin:10px;
-  }
-  #om{
-    font-size: 15px;
-  }
-  #ball_bilde{
-    margin-top: 0;
-  }
-  .bloggelem{
-    width:30%;
-    padding-bottom: 30%;/* this and width need to be similar*/
-  }
-  #bloggbilde{
-    padding:0;
-    margin:0;
-  }
-  #nummer{
-    font-size:40px;
-  }
-  .siste{
-    padding-top:60%;
-    padding-left: 3%;
-  }
-  .text {
-    font-size: 20px;
-    padding:20px;
-  }
-  .row{
-    padding:50px;
-    
-  }
-
 }
