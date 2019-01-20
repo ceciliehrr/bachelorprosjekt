@@ -698,6 +698,7 @@ padding-bottom: 50px;
   .column-1 {
     width: 100%;
     text-align: left;
+    padding: 5px;
   }
   img {
     margin: 0;
