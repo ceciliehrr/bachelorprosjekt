@@ -652,7 +652,7 @@ padding-bottom: 50px;
     width: 100%;
     height: auto;
     padding-bottom:50px;
-    float: center;
+    float: none;
   }
   #oppgaven{
     font-size: 15px;
@@ -702,10 +702,12 @@ padding-bottom: 50px;
   img {
     margin: 0;
     padding: 0;
+  }
+  .people{
     width: 100%;
     height: auto;
-  }
-
+    margin: 0;
+}
   #blogg-strek{
     margin-left:0;
   }
