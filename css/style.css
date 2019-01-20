@@ -621,6 +621,13 @@ padding-bottom: 50px;
   .header{
     height: auto;
   }
+  .header article{
+    margin-top:15%;
+    margin-left: 0;
+  }
+  .fa-align-center{
+    margin: 5px;
+  }
   .over-content a{
     font-size: 30px;
   }
@@ -629,7 +636,7 @@ padding-bottom: 50px;
     margin:0;
   }
   .big-font{
-    font-size:2em;
+    font-size:30px;
   }
   .medium-font{
     font-size: 1.5em;
@@ -644,6 +651,7 @@ padding-bottom: 50px;
     width: 100%;
     height: auto;
     padding-bottom:50px;
+    float: center;
   }
   #oppgaven{
     font-size: 15px;
@@ -691,7 +699,7 @@ padding-bottom: 50px;
     text-align: left;
   }
   img {
-    margin: auto;
+    margin: 0;
   }
 
   #blogg-strek{
