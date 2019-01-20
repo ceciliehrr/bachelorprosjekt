@@ -528,7 +528,7 @@ padding-bottom: 50px;
   .responsive_img {
     width: 50%;
     height: auto;
-    padding-bottom:50px;
+    padding-bottom:40px;
   }
   #oppgaven{
     font-size: 15px;
@@ -541,7 +541,7 @@ padding-bottom: 50px;
     }
   .elem{
     width:20%;
-    margin: 2px;
+    margin: 3px;
     padding-bottom: 20%;/* this and width need to be similar*/
   }
   .strek{
@@ -653,7 +653,6 @@ padding-bottom: 50px;
   .responsive_img {
     width: 100%;
     height: auto;
-    padding-bottom:50px;
     float: none;
   }
   #oppgaven{
@@ -667,9 +666,11 @@ padding-bottom: 50px;
   }
   .elem{
     width:20%;
-    margin: 2px;
+    margin: 3px;
+    margin-left: 2%;
     padding-bottom: 20%;/* this and width need to be similar*/
   }
+
   .fa-calendar-check{
     font-size:18px;
   }
@@ -707,7 +708,7 @@ padding-bottom: 50px;
     padding: 0;
   }
   .people{
-    width: 100%;
+    width: 70%;
     height: auto;
     margin: 0;
 }
