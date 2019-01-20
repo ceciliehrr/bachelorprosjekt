@@ -637,7 +637,7 @@ padding-bottom: 50px;
     margin:0;
   }
   .big-font{
-    font-size:30px;
+    font-size:25px;
   }
   .medium-font{
     font-size: 1.5em;
@@ -701,6 +701,9 @@ padding-bottom: 50px;
   }
   img {
     margin: 0;
+    padding: 0;
+    width: 100%;
+    height: auto;
   }
 
   #blogg-strek{
