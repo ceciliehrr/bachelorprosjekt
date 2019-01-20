@@ -186,7 +186,6 @@ body {
 #blogg-strek{
   margin-left: -64px;
 }
-
 .elem{
   margin: 10px;
   width:10%;
@@ -196,6 +195,7 @@ body {
   position: relative;
   display: block;
   text-align: center;
+  
 }
 .elem1{
   background-color: var(--primary-two);
@@ -260,6 +260,7 @@ body {
   opacity: 0;
   transition: .5s ease;
   z-index: 0;
+  background-color:var(--primary-two);
   
 }
 .overlay_blogg{
@@ -282,7 +283,6 @@ body {
   opacity:1;
   cursor: pointer;
 }
-
 .blog{
   grid-area: blog;
   padding: 64px;
@@ -615,7 +615,8 @@ padding-bottom: 50px;
       'footer footer footer footer footer footer';
   }
 	body{
-		padding: 0%;
+    padding: 0;
+    margin:0;
 	}
   .header{
     height: auto;
