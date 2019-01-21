@@ -601,6 +601,7 @@ padding-bottom: 50px;
 /*Mobile */
 @media only screen and (max-width: 600px) {
   .grid-container  {
+    padding: 2px;
     grid-template-areas: 
     'navbar-small navbar-small navbar-small navbar-small navbar-small navbar-small'
       'header header header header header header'
@@ -614,7 +615,8 @@ padding-bottom: 50px;
       'footer footer footer footer footer footer';
   }
 	body{
-
+    padding: 0;
+    margin:0;
 	}
   .header{
     height: auto;
@@ -733,6 +735,17 @@ padding-bottom: 50px;
   .nummer{
     font-size:20px;
 
+  }
+  .portrett{
+    width: 50%;
+    height: auto;
+    margin: 0;
+  }
+  .column_portrett {
+    float: left;
+    width: 33.33%;
+    padding: 0px;
+    margin: 5px;
   }
   .text {
     padding:20px;
