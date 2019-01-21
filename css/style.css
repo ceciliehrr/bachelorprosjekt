@@ -102,7 +102,7 @@ body {
 .responsive_img{
   padding-top: 100px;
   float: right;
-  width: 60%;
+  width: 50%;
   height: auto;
 }
 /*FONTS*/
@@ -211,7 +211,7 @@ body {
   color: var(--primary-two);
 }
 .elem-p{
-  font-size:18px;
+  font-size:15px;
   font-family:'Roboto';
   font-weight: 400;
 }
