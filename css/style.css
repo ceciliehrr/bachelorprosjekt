@@ -158,7 +158,9 @@ body {
   text-align: center;
   z-index: 0;
 }
-
+.text:hover{
+  opacity: 0.7;
+}
 .fa-calendar-check{
   padding-top:20%;
   font-size: 50px;
@@ -284,6 +286,11 @@ body {
 .elem:hover .overlay_blogg {
   opacity:1;
   cursor: pointer;
+}
+.pdf-mobil{
+  display: none;
+  text-decoration: none;
+  color: var(--primary-three);
 }
 .blog{
   grid-area: blog;
@@ -548,6 +555,16 @@ padding-bottom: 50px;
     margin: 3px;
     padding-bottom: 20%;/* this and width need to be similar*/
   }
+  .pdf{
+    display: none;
+  }
+  .pdf-mobil{
+    display: block;
+    text-decoration: none;
+  }
+  .elem .fa-mobil{
+    display: none;
+  }
   .strek{
     width: 250px;
     height: auto;
@@ -667,7 +684,16 @@ padding-bottom: 50px;
     margin-left: 2%;
     padding-bottom: 20%;/* this and width need to be similar*/
   }
-
+  .pdf{
+    display: none;
+  }
+  .pdf-mobil{
+    display: block;
+    text-decoration: none;
+  }
+  .elem .fa-mobil{
+    display: none;
+  }
   .fa-calendar-check{
     font-size:18px;
   }
