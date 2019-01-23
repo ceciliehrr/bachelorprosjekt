@@ -183,6 +183,9 @@ body {
   margin-bottom:40px;
   font-size: 30px;
 }
+.pdf-mobil{
+  display: none;
+}
 .strek{
 	width: 250px;
 	height: auto;
