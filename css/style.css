@@ -7,7 +7,7 @@
 
 :root {
     --primary-one:rgb(246, 246, 246);
-    --primary-two:rgb(53, 73, 78) ;  
+    --primary-two:#35494e ;  
     --primary-three: #bcab8e;
     --primary-four: #f1f1f1; 
   }
@@ -192,7 +192,7 @@ body {
   margin-left: -64px;
 }
 .elem{
-  margin: 15px;
+  margin: 10px;
   width:12%;
   height: 0;
   padding-bottom: 12%;/* this and width need to be similar*/
@@ -214,6 +214,10 @@ body {
   font-size:15px;
   font-family:'Roboto';
   font-weight: 400;
+}
+#gant{
+  width: 100%;
+  height: auto;
 }
 .bloggelem{
   width:30%;
