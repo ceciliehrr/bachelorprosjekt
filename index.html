@@ -5,6 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="gantt/css/stylegantt.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -15,7 +16,6 @@
 
 
 <div class="grid-container" id="grid">
-    
         <div class="navbar">
                 <span style="font-size:40px;cursor:pointer" onclick="openNav()"><i class="fas fa-align-center"></i></span>
                 <div id="myNav" class="over">
@@ -64,37 +64,100 @@
             <a class="pdf" href="docs/Prosjektskisse_CecilieHR_182198.pdf" target="_blank"><div class="text">Last ned</div></a>
         </div>
       </div>
+      <div class="elem elem3">
+        <i class="far fa-calendar-check"><p class="elem-p">Gantt-skjema<br></p></i>
+    <div class="overlay">
+        <div class="text"><i class="far fa-eye" style="font-size: 50px;"></i><br>SE</div>
+    </div>
+</div>
         <div class="elem elem2">
                 <i class="far fa-calendar-times"><p class="elem-p">Prosjekt-<br>beskrivelse</p></i>
             <div class="overlay">
                 <div class="text"><i class="fas fa-times"></i><br>5.feb</div>
           </div>
         </div>
-        <div class="elem elem3">
+        <div class="elem elem4">
                 <i class="far fa-calendar-times"><p class="elem-p">Status-<br>rapport 1</p></i>
             <div class="overlay">
                 <div class="text"><i class="fas fa-times"></i><br>5.feb</div>
             </div>
         </div>
-        <div class="elem elem4">
+        <div class="elem elem5">
                 <i class="far fa-calendar-times"><p class="elem-p">Status-<br>rapport 2</p></i>
             <div class="overlay">
                 <div class="text"><i class="fas fa-times"></i><br>12.mars</div>
             </div>
         </div>
-        <div class="elem elem5">
+        <div class="elem elem6">
                 <i class="far fa-calendar-times"><p class="elem-p">Status-<br>rapport 3</p></i>
             <div class="overlay">
                 <div class="text"><i class="fas fa-times"></i><br>30.april</div>
             </div>
         </div>
-        <div class="elem elem6">
+        <div class="elem elem7">
                 <i class="far fa-calendar-times"><p class="elem-p">Bachelor-<br>rapport</p></i>
             <div class="overlay">
                 <div class="text"><i class="fas fa-times"></i><br>7.mai</div>
             </div>
         </div>
+
+        <div id="gant">
+                <div id="gant">
+                        <br>    
+                <div class="wrapper">
+                <div class="hide"><i class="fas fa-times"></i></div>
+                <div class="gantt">
+                   
+                 <div class="gantt__row gantt__row--months">
+                     <div class="gantt__row-first"></div>
+                     <span>Jan</span><span>Feb</span><span>Mar</span>
+                     <span>Apr</span><span>May</span><span>Jun</span>
+                     <span>Jul</span><span>Aug</span><span>Sep</span>
+                     <span>Oct</span><span>Nov</span><span>Dec</span>
+                 </div>
+                 <div class="gantt__row gantt__row--lines" data-month="5">
+                     <span></span><span></span><span class="marker"></span>
+                     <span></span><span></span><span></span>
+                     <span></span><span></span><span></span>
+                     <span></span><span></span><span></span>
+                 </div>
+                 <div class="gantt__row">
+                     <div class="gantt__row-first">
+                         FASE 1
+                     </div>
+                     <ul class="gantt__row-bars">
+                         <li style="grid-column: 1/3; background-color: #2ecaac;">Frist 15.02</li>
+                         <li style="grid-column: 1/6; background-color: #ff6252;" class="stripes">PROSJEKTRAPPORT</li>
+                     </ul>
+                 </div>
+                 <div class="gantt__row">
+                     <div class="gantt__row-first">
+                         FASE 2
+                     </div>
+                     <ul class="gantt__row-bars">
+                         <li style="grid-column: 3/5; background-color: #2ecaac;">Frist 30.04</li>
+                         <li style="grid-column: 1/6; background-color: #ff6252;" class="stripes">PROSJEKTRAPPORT</li>
+                     </ul>
+                 </div>
+                 <div class="gantt__row">
+                     <div class="gantt__row-first">
+                         FASE 3
+                     </div>
+                     <ul class="gantt__row-bars">
+                         <li style="grid-column: 5/6; background-color: #2ecaac;">Frist 07.05</li>
+                         <li style="grid-column: 1/6; background-color: #ff6252;" class="stripes">PROSJEKTRAPPORT</li>
+                     </ul>
+                 </div>
+                 <div class="gantt__row gantt_row_empty">
+                         <div class="gantt__row-first">
+                     </div>
+                 </div>
+                </div>
+                </div>
+                </div>
+        </div>
     </div>
+
     <div class="om_oppg" id="omOppg">
             <figure class="tekst"><div class="strek">PROSJEKTET</div></figure>
             <div class="row">

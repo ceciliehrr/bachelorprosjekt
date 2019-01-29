@@ -64,7 +64,17 @@ jQuery(function($) {
     // Hook doAnimations on scroll, and trigger a scroll
       $(window).on('scroll', doAnimations);
     $(window).trigger('scroll');
-  
   });
 
+  $(document).ready(function(){
+    $('#gant').hide();
+    $(".elem3").click(function(){
+      $("#gant").show(1000);
+    });
+  });
 
+  $(document).ready(function(){
+  $(".hide").click(function(){
+    $("#gant").hide(1000);
+  });
+});

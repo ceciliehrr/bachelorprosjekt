@@ -183,9 +183,6 @@ body {
   margin-bottom:40px;
   font-size: 30px;
 }
-.pdf-mobil{
-  display: none;
-}
 .strek{
 	width: 250px;
 	height: auto;
@@ -195,7 +192,7 @@ body {
   margin-left: -64px;
 }
 .elem{
-  margin: 10px;
+  margin: 15px;
   width:12%;
   height: 0;
   padding-bottom: 12%;/* this and width need to be similar*/
@@ -205,12 +202,11 @@ body {
   text-align: center;
   
 }
-.elem1{
+.elem1,.elem3{
   background-color: var(--primary-two);
   color: var(--primary-three);
-  margin-left: 5%;
 }
-.elem2, .elem3, .elem4,.elem5,.elem6, .elem7, .elem8{
+.elem2, .elem4,.elem5,.elem6, .elem7, .elem8{
   background-color: var(--primary-three);
   color: var(--primary-two);
 }
@@ -558,6 +554,12 @@ padding-bottom: 50px;
     margin: 3px;
     padding-bottom: 20%;/* this and width need to be similar*/
   }
+    .elem3{
+    display: none;
+  }
+  #gant{
+    display: none;
+  }
   .pdf{
     display: none;
   }
@@ -686,6 +688,12 @@ padding-bottom: 50px;
     margin: 3px;
     margin-left: 2%;
     padding-bottom: 20%;/* this and width need to be similar*/
+  }
+  .elem3{
+    display: none;
+  }
+  #gant{
+    display: none;
   }
   .pdf{
     display: none;
