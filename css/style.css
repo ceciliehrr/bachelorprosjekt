@@ -237,11 +237,11 @@ body {
   transition: 0.7s;
   background-color: var(--primary-four);
 }
-.blogg1, .blogg2{
+.blogg1, .blogg2, .blogg3{
   background-color:#BABABA;
   box-shadow: 0.2rem 0.3rem 0.3rem rgba(0, 0, 0, 0.3);
 }
-.blogg3, .blogg4, .blogg5, .blogg6{
+ .blogg4, .blogg5, .blogg6{
   background-color: var(--primary-four);
   box-shadow: 0.2rem 0.3rem 0.3rem rgba(0, 0, 0, 0.3);
 }
