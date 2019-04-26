@@ -140,6 +140,12 @@ body {
 #oppgaven{
   font-size: 20px;
 }
+.countdown{
+  grid-area: countdown;
+  width: 100%;
+  position: relative;
+  background-color: var(--primary-one );
+}
 .assignment{
   grid-area: assignment;
   width: 100%;
@@ -505,6 +511,7 @@ padding-bottom: 50px;
   grid-template-areas:
   'navbar navbar navbar navbar navbar navbar'
     'header header header header header header'
+    'countdown countdown countdown countdown countdown countdown'
     'assignment assignment assignment assignment assignment assignment'
     'gantt gantt gantt gantt gantt gantt'
     'om_oppg om_oppg om_oppg om_oppg om_oppg om_oppg'
@@ -632,6 +639,7 @@ padding-bottom: 50px;
     grid-template-areas: 
     'navbar-small navbar-small navbar-small navbar-small navbar-small navbar-small'
       'header header header header header header'
+      'countdown countdown countdown countdown countdown countdown'
       'assignment assignment assignment assignment assignment assignment'
       'om_oppg om_oppg om_oppg om_oppg om_oppg om_oppg'
       'blog blog blog blog blog blog'
