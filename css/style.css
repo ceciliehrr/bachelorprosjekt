@@ -771,9 +771,13 @@ padding-bottom: 50px;
   #blogg-strek{
     margin-left:0;
   }
+  .right{
+    text-align: left;
+  }
   #om{
-    margin: 10% 10% 10% 10%;
-    font-size: 20px;
+    margin: 0% 0% 0% 0%;
+    font-size: 17px;
+    width: 80%;
   }
   .navbar-small{
     display: block;
