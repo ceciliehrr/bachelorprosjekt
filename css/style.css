@@ -146,6 +146,7 @@ body {
   position: relative;
   background-color: var(--primary-one );
 }
+
 .assignment{
   grid-area: assignment;
   width: 100%;
@@ -356,6 +357,7 @@ img {
 .siste,
 .left,
 .assignment,
+.countdown,
 .right,
 .blog {
 padding-bottom: 50px;
@@ -559,6 +561,9 @@ padding-bottom: 50px;
   .assignment{
     padding: 0px;
   }
+  .countdown{
+    padding: 0px;
+  }
   .overlay {
     display: none;
     }
@@ -650,7 +655,7 @@ padding-bottom: 50px;
       'footer footer footer footer footer footer';
   }
 	body{
-    padding: 0;
+    padding: 10px;
     margin:0;
 	}
   .header{
@@ -692,6 +697,9 @@ padding-bottom: 50px;
     font-size: 15px;
   }
   .assignment{
+    padding: 0px;
+  }
+  .countdown{
     padding: 0px;
   }
   .overlay {
