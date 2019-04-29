@@ -209,11 +209,11 @@ body {
   text-align: center;
   
 }
-.elem1,.elem3, .elem4,.elem2,.elem5{
+.elem1,.elem3, .elem4,.elem2,.elem5, .elem6{
   background-color: var(--primary-two);
   color: var(--primary-three);
 }
-.elem6, .elem7, .elem8{
+.elem7, .elem8{
   background-color: var(--primary-three);
   color: var(--primary-two);
 }
