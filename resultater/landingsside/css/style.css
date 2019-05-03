@@ -35,6 +35,7 @@
   hr{
     border: 1px solid #F1F1F1;
   }
+
   .icons{
     margin:10px;
     margin-right: 20px;
@@ -156,7 +157,7 @@
   }
  .fa-id-badge{
     margin:30px;
-  }
+ }
   figure{
     text-align: center;
     margin: 0;
@@ -254,6 +255,24 @@
     width: 25%;
     padding: 0 10px;
  }
+ .kontakt a{
+   display: block;
+  color:#757575;
+ }
+ .kontakt a:focus{
+    outline-color:#ff6d70  ;
+    outline-style:solid;  
+    outline-width: medium;
+ }
+ .kontakt{
+   margin-left:30px;
+   text-align: center;  
+   width: 80%;
+   display: block;
+   margin-bottom: 20px;
+   padding: 0 10px;
+ }
+
   .row {margin: 0 -5px;}
 
   .row:after {
@@ -275,15 +294,15 @@
 /*Help-tip hentet fra   https://tutorialzine.com/2014/07/css-inline-help-tips*/
   .help-tip{
     position: absolute;
-    top: 168px;
+    top: 150px;
     right: 18px;
     text-align: center;
     background-color: #BCDBEA;
     border-radius: 50%;
-    width: 24px;
-    height: 24px;
-    font-size: 14px;
-    line-height: 26px;
+    width: 34px;
+    height: 34px;
+    font-size: 20px;
+    line-height: 34px;
     cursor: default;
 }
 .help-tip:before{
@@ -353,7 +372,7 @@
     100% { opacity:100%; }
 }
   
-  @media only screen and (max-width: 768px) {
+  @media only screen and (max-width: 600px) {
     /* For mobile phones: */
     .grid-container {
     grid-template-areas:
@@ -366,18 +385,23 @@
     grid-gap: 0px;
     padding: 0px;
     }
-  h2{
+  h3{
     font-weight: 400;
   }
   .aside{
     margin-left: 0px;
   }
-  
   .cards{
     margin:10px;
   }
-  #asideLenker{
-    padding: 10px;
+ .aside {
+    padding: 20px;
+  }
+  .aside li a{
+  padding: 25px;
+  }
+  article{
+    margin: 0;
   }
   #userImg{
     max-width: 15%;
@@ -387,6 +411,11 @@
     display: block;
     margin-bottom: 20px;
   }
-
+  .kontakt{
+    display: block;
+    margin-left:0;
+    text-align: center;  
+    width: 100%;
+  }
   
 }
