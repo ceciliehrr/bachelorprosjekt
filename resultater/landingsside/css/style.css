@@ -16,11 +16,15 @@
     height: 100%;
     background-color: #F1F1F1;
   }
+  h1{
+    width: 80%;
+    text-align: center;
+  }
   h2{
     font-weight: 400;
     font-size: 30px;
   }
-  h5{
+  h4{
     font-weight: 200;
   }
   a:focus {
@@ -285,6 +289,7 @@
     background-color: var(--primary-two);
     color: white;
     text-align: center;
+    padding: 10px;
   }
   .footer a:focus{
     outline-color:white ;
@@ -294,7 +299,7 @@
 /*Help-tip hentet fra   https://tutorialzine.com/2014/07/css-inline-help-tips*/
   .help-tip{
     position: absolute;
-    top: 150px;
+    top: 140px;
     right: 18px;
     text-align: center;
     background-color: #BCDBEA;
