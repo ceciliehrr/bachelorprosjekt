@@ -366,12 +366,18 @@
     grid-gap: 0px;
     padding: 0px;
     }
-  
+  h2{
+    font-weight: 400;
+  }
   .aside{
     margin-left: 0px;
   }
+  
   .cards{
     margin:10px;
+  }
+  #asideLenker{
+    padding: 10px;
   }
   #userImg{
     max-width: 15%;
