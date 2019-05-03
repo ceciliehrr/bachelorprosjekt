@@ -394,11 +394,11 @@
   .cards{
     margin:10px;
   }
- .aside {
+   .aside {
     padding: 20px;
   }
   .aside li a{
-  padding: 25px;
+    padding: 25px;
   }
   article{
     margin: 0;
