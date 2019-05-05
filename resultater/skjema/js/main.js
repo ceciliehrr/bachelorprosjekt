@@ -86,6 +86,11 @@ $("#pstedP").val(poststed);
 function ClearFields(ctrl) {
   var fieldset = ctrl.closest('fieldset');
   $('input[type="text"]').val("");
+  $("#fornavnP").val(fornavn);
+  $("#etternavnP").val(etternavn);
+  $("#adrP").val(adresse);
+  $("#pnrP").val(adressekode);
+  $("#pstedP").val(poststed);
 }
 function enable(ctrl) {
   var fieldset = ctrl.closest('fieldset');
