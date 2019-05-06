@@ -101,7 +101,18 @@ body{
   .title {
     color: grey;
   }
-    
+  .footer{
+    background-color: #333333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+  }
+  .footer a:focus{
+    outline-color:white ;
+    outline-style:solid;  
+    outline-width: medium;
+  }
+
   @media screen and (max-width: 650px) {
     .column {
       width: 100%;

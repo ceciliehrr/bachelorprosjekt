@@ -146,7 +146,9 @@ body {
   position: relative;
   background-color: var(--primary-one );
 }
-
+.resultater{
+  background-color: var(--primary-one );
+}
 .assignment{
   grid-area: assignment;
   width: 100%;
@@ -176,6 +178,10 @@ body {
   padding-top:20%;
   font-size: 50px;
 }
+.icons{
+  padding-top:20%;
+  font-size: 50px;
+}
 .fa-times{
   font-size: 50px;
 }
@@ -194,6 +200,7 @@ body {
 	width: 250px;
 	height: auto;
   border-bottom: solid 1px var(--primary-two);
+  margin-top: 20px;
 }
 #blogg-strek{
   margin-left: -64px;
@@ -207,13 +214,14 @@ body {
   position: relative;
   display: block;
   text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   
 }
-.elem1,.elem3, .elem4,.elem2,.elem5, .elem6{
+.elem1,.elem3, .elem4,.elem2,.elem5, .elem6, .elem8, .elem9, .elem10, .elem11{
   background-color: var(--primary-two);
   color: var(--primary-three);
 }
-.elem7, .elem8{
+.elem7{
   background-color: var(--primary-three);
   color: var(--primary-two);
 }
@@ -358,6 +366,7 @@ img {
 .left,
 .assignment,
 .countdown,
+.resultater,
 .right,
 .blog {
 padding-bottom: 50px;
@@ -505,7 +514,9 @@ padding-bottom: 50px;
 	-o-animation-name: fadeInUp;
 	animation-name: fadeInUp;
 }
-
+.resultater{
+  grid-area: resultater;
+}
 
 /* The grid container */
 .grid-container {
@@ -514,6 +525,7 @@ padding-bottom: 50px;
   'navbar navbar navbar navbar navbar navbar'
     'header header header header header header'
     'countdown countdown countdown countdown countdown countdown'
+    'resultater resultater resultater resultater resultater resultater'
     'assignment assignment assignment assignment assignment assignment'
     'gantt gantt gantt gantt gantt gantt'
     'om_oppg om_oppg om_oppg om_oppg om_oppg om_oppg'
@@ -563,6 +575,9 @@ padding-bottom: 50px;
   }
   .countdown{
     padding: 0px;
+  }
+  .resultater{
+    padding: 0;
   }
   .overlay {
     display: none;
@@ -645,6 +660,7 @@ padding-bottom: 50px;
     'navbar-small navbar-small navbar-small navbar-small navbar-small navbar-small'
       'header header header header header header'
       'countdown countdown countdown countdown countdown countdown'
+      'resultater resultater resultater resultater resultater resultater '
       'assignment assignment assignment assignment assignment assignment'
       'om_oppg om_oppg om_oppg om_oppg om_oppg om_oppg'
       'blog blog blog blog blog blog'
