@@ -377,7 +377,7 @@
     100% { opacity:100%; }
 }
   
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 768px) {
     /* For mobile phones: */
     .grid-container {
     grid-template-areas:
@@ -423,4 +423,51 @@
     width: 100%;
   }
   
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media (min-width: 768px) and (max-width: 1024px) {
+      .grid-container {
+        grid-template-areas:
+          'nav nav nav nav nav nav'
+          'aside aside aside aside aside aside'
+          'message message message message message message'
+          'avtaler avtaler avtaler avtaler avtaler avtaler'
+          'tjenester tjenester tjenester tjenester tjenester tjenester'
+          'footer footer footer footer footer footer';
+        grid-gap: 0px;
+        padding: 0px;
+        }
+        h3{
+          font-weight: 400;
+        }
+        .aside{
+          margin-left: 0px;
+        }
+        .cards{
+          margin:10px;
+        }
+         .aside {
+          padding: 20px;
+        }
+        .aside li a{
+          padding: 25px;
+        }
+        article{
+          margin: 0;
+        }
+        #userImg{
+          max-width: 15%;
+        }
+        .column {
+          width: 100%;
+          display: block;
+          margin-bottom: 20px;
+        }
+        .kontakt{
+          display: block;
+          margin-left:0;
+          text-align: center;  
+          width: 100%;
+        }
 }
