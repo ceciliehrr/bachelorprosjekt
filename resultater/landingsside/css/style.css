@@ -135,7 +135,7 @@
     overflow: auto;
   }
   aside ul{
-    position:relative;
+    position: relative;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -398,12 +398,10 @@
   }
   .cards{
     margin:10px;
-  }
-   .aside {
-    padding: 20px;
+    height: auto;
   }
   .aside li a{
-    padding: 25px;
+    padding: 10px;
   }
   article{
     margin: 0;
@@ -446,6 +444,10 @@
         }
         .cards{
           margin:10px;
+           height: auto;
+        }
+        .messages .cards{
+          height: auto;
         }
          .aside {
           padding: 20px;

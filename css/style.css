@@ -220,13 +220,9 @@ iframe{
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   
 }
-.elem1,.elem3, .elem4,.elem2,.elem5, .elem6, .elem8, .elem9, .elem10, .elem11{
+.elem1,.elem3, .elem4,.elem2,.elem5, .elem6, .elem8, .elem9, .elem10, .elem11, .elem7{
   background-color: var(--primary-two);
   color: var(--primary-three);
-}
-.elem7{
-  background-color: var(--primary-three);
-  color: var(--primary-two);
 }
 .elem-p{
   font-size:15px;
