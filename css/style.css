@@ -57,6 +57,7 @@ iframe{
   top: 0;
   left: 0;
   background-color: var(--primary-two);
+  background-color: #35494e;
   background-color: rgba(53, 73, 78, 0.9);
   overflow-x: hidden;
   transition: 0.5s;
@@ -75,6 +76,7 @@ iframe{
   text-decoration: none;
   font-size: 36px;
   color: var(--primary-three);
+  color: #bcab8e;
   display: block;
   transition: 0.3s;
 }
@@ -109,16 +111,19 @@ iframe{
 /*FONTS*/
 .xl-font{
   color: var(--primary-two);
+  color: #35494e;
   font-size: 48px;
   font-weight: bold;
 }
 .big-font{
    color: var(--primary-two);
+   color:#35494e;
    font-size: 2.5em;
    font-weight: bold;
 }
 .medium-font{
    color: var(--primary-three);
+   color:  #bcab8e;
    font-style: italic;
    font-size: 2em;
    font-weight: thin;
@@ -126,6 +131,7 @@ iframe{
 }
 .small-font{
     color: var(--primary-three);
+    color:  #bcab8e;
     font-style: italic;
     font-size: 20px;
 }
@@ -159,6 +165,7 @@ iframe{
 }
 .text {
   color:var(--primary-three);
+  color:  #bcab8e;
   font-size: 20px;
   position: absolute;
   top: 50%;
@@ -202,6 +209,7 @@ iframe{
 	width: 250px;
 	height: auto;
   border-bottom: solid 1px var(--primary-two);
+  border-bottom: #35494e;
   margin-top: 20px;
 }
 #blogg-strek{
@@ -222,7 +230,9 @@ iframe{
 }
 .elem1,.elem3, .elem4,.elem2,.elem5, .elem6, .elem8, .elem9, .elem10, .elem11, .elem7{
   background-color: var(--primary-two);
+  background-color: #35494e;
   color: var(--primary-three);
+  color:  #bcab8e;
 }
 .elem-p{
   font-size:15px;
@@ -250,6 +260,7 @@ iframe{
   cursor: pointer;
   transition: 0.7s;
   background-color: var(--primary-four);
+  background-color: #f1f1f1;
 }
 .blogg1, .blogg2, .blogg3{
   background-color:#BABABA;
@@ -257,6 +268,7 @@ iframe{
 }
  .blogg4, .blogg5, .blogg6{
   background-color: var(--primary-four);
+  background-color: #f1f1f1;
   box-shadow: 0.2rem 0.3rem 0.3rem rgba(0, 0, 0, 0.3);
 }
 #bloggarkiv{
@@ -266,6 +278,7 @@ iframe{
 .nummer{
   font-size:30px;
   color: var(--primary-two);
+  color: #35494e;
   z-index: 0;
 }
 #more{
@@ -283,6 +296,7 @@ iframe{
   transition: .5s ease;
   z-index: 0;
   background-color:var(--primary-two);
+  background-color: #35494e;
   
 }
 .overlay_blogg{
@@ -309,6 +323,7 @@ iframe{
   display: none;
   text-decoration: none;
   color: var(--primary-three);
+  color:  #bcab8e;
 }
 .blog{
   grid-area: blog;
@@ -337,6 +352,7 @@ iframe{
 .button {
   border:none;
   background-color: var(--primary-two);
+  background-color: #35494e;
   color: white;
   padding: 14px 28px;
   font-size: 16px;
@@ -374,6 +390,7 @@ padding-bottom: 50px;
 .left {
   grid-area: left;
   background-color:var(--primary-four);
+  background-color: #f1f1f1;
 }
 .column_portrett {
   float: left;
@@ -510,7 +527,7 @@ padding-bottom: 50px;
 .animated.fadeInUp {
 	-webkit-animation-name: fadeInUp;
 	-moz-animation-name: fadeInUp;
-	-o-animation-name: fadeInUp;
+  -o-animation-name: fadeInUp;
 	animation-name: fadeInUp;
 }
 .resultater{
@@ -606,6 +623,7 @@ padding-bottom: 50px;
     width: 250px;
     height: auto;
     border-bottom: solid 1px var(--primary-two);
+    border-bottom: #35494e;
   }
   .blog{
     padding: 0px;
@@ -765,6 +783,7 @@ padding-bottom: 50px;
     width: 250px;
     height: auto;
     border-bottom: solid 1px var(--primary-two);
+    border-bottom: #35494e;
   }
   .blog{
     padding: 0px;
