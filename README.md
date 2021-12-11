@@ -2,7 +2,7 @@
 
 Visit site:
 
-`https://determined-johnson-86125a.netlify.app/`
+https://bachelorproject.netlify.app/
 
 # Deploy
 
