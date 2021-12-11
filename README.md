@@ -1,2 +1,9 @@
 # Bachelorprosjekt mai 2019
-<p>Sidene er ikke kompatibel med Internet Explorer</p>
+
+Visit site:
+
+`https://determined-johnson-86125a.netlify.app/`
+
+# Deploy
+
+Deploys to Netlify when merge to master
